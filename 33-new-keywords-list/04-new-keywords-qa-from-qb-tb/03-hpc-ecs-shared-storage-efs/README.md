@@ -1,0 +1,8 @@
+# HPC + ECS Shared Storage EFS
+
+[⬅ Back](../README.md)
+
+| # | Topic | Type |
+|---|-------|------|
+| 01 | 📄 [Question](01-question.md) | note |
+| 02 | 📁 [Ans](02-ans/README.md) | 2 notes |
