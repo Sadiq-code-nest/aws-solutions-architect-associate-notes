@@ -1,4 +1,5 @@
 <p align="center"><img src="images/aws-saa-badge.png" alt="AWS Certified Solutions Architect Associate badge" width="420"></p>
+<p align="center"><img src="images/AWS_SAAC03.png" alt="AWS Certified SAAC03 badge" width="420"></p> 
 
 # AWS Solutions Architect Associate (SAA-C03) Notes
 
