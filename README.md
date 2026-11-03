@@ -1,3 +1,5 @@
+<p align="center"><img src="images/aws-saa-badge.png" alt="AWS Certified Solutions Architect Associate badge" width="420"></p>
+
 # AWS Solutions Architect Associate (SAA-C03) Notes
 
 > My personal study notes for the **AWS Certified Solutions Architect - Associate (SAA-C03)** exam, written while working hands-on with AWS and organized by topic so you can jump straight to what you need.
@@ -17,7 +19,7 @@
 
 | # | Topic | Contents |
 |---|-------|----------|
-| 01 | ▫️ Getting Started with AWS | outline only |
+| 01 | 📁 [Getting Started with AWS](01-getting-started-with-aws/README.md) | outline only (notes coming soon) |
 | 02 | 📁 [IAM & AWS CLI](02-iam-and-aws-cli/README.md) | 2 notes |
 | 03 | 📁 [EC2 All Levels](03-ec2-all-levels/README.md) | 30 notes |
 | 04 | 📁 [Load Balancer](04-load-balancer/README.md) | 16 notes |
@@ -54,7 +56,10 @@
 
 ## Full index
 
-- ▫️ Getting Started with AWS
+- 📁 **[Getting Started with AWS](01-getting-started-with-aws/README.md)**
+  - ▫️ AWS Cloud Overview - Regions & AZ
+  - ▫️ Important AWS Console UI Update
+  - ▫️ Tour of the AWS Console & Services in AWS
 - 📁 **[IAM & AWS CLI](02-iam-and-aws-cli/README.md)**
   - ▫️ IAM Introduction: Users, Groups, Policies
   - ▫️ IAM Users & Groups
@@ -355,7 +360,11 @@
   - 📄 [AWS Cognito](19-serverless/06-aws-cognito.md)
   - 📄 [Cognito Identity Pool vs. AWS STS?](19-serverless/07-cognito-identity-pool-vs-aws-sts.md)
   - 📄 [AWS AppSync](19-serverless/08-aws-appsync.md)
-  - ▫️ Serverless Architecture
+  - 📁 **[Serverless Architecture](19-serverless/09-serverless-architecture/README.md)**
+    - ▫️ Mobile Application: MyTodoList
+    - ▫️ Serverless Website: MyBlog. com
+    - ▫️ MicroServices Architecture
+    - ▫️ Software Updates Distribution
 - 📁 **[Databases in AWS](20-databases-in-aws/README.md)**
   - 📄 [overview](20-databases-in-aws/01-overview.md)
   - 📄 [RDS](20-databases-in-aws/02-rds.md)
@@ -607,7 +616,10 @@
     - 📄 [AWS Systems Manager OpsCenter](33-new-keywords-list/01-new-keywords-tm01/31-aws-systems-manager-opscenter.md)
   - 📁 **[New Keywords: TM02TB1-8](33-new-keywords-list/02-new-keywords-tm02tb1-8/README.md)**
     - 📄 [Elastic Transcoder](33-new-keywords-list/02-new-keywords-tm02tb1-8/01-elastic-transcoder.md)
-    - ▫️ Amazon Managed Service for Prometheus
+    - 📁 **[Amazon Managed Service for Prometheus](33-new-keywords-list/02-new-keywords-tm02tb1-8/02-amazon-managed-service-for-prometheus/README.md)**
+      - ▫️ Managed Prometheus-compatible monitoring service
+      - ▫️ Collects and queries metrics for monitoring workloads
+      - ▫️ Metrics monitoring
     - 📄 [AWS Service Control Policies](33-new-keywords-list/02-new-keywords-tm02tb1-8/03-aws-service-control-policies.md)
     - 📄 [AWS Data Transfer Terminal](33-new-keywords-list/02-new-keywords-tm02tb1-8/04-aws-data-transfer-terminal.md)
     - 📄 [Amazon AppStream 2.0](33-new-keywords-list/02-new-keywords-tm02tb1-8/05-amazon-appstream-2-0.md)
@@ -640,7 +652,9 @@
   - 📁 **[New Keywords SB](33-new-keywords-list/03-new-keywords-sb/README.md)**
     - 📄 [Elastic Fabric Adapter (EFA)](33-new-keywords-list/03-new-keywords-sb/01-elastic-fabric-adapter-efa.md)
     - 📄 [Service Control Policy (SCP)](33-new-keywords-list/03-new-keywords-sb/02-service-control-policy-scp.md)
-    - ▫️ Identity Federation
+    - 📁 **[Identity Federation](33-new-keywords-list/03-new-keywords-sb/03-identity-federation/README.md)**
+      - ▫️ Authenticate users using external identity provider
+      - ▫️ Allows users to access AWS using identities from an external identity provider
     - 📄 [Aurora Parallel Query](33-new-keywords-list/03-new-keywords-sb/04-aurora-parallel-query.md)
     - 📄 [Amazon X-Ray](33-new-keywords-list/03-new-keywords-sb/05-amazon-x-ray.md)
     - 📄 [DeleteOnTermination on EBS](33-new-keywords-list/03-new-keywords-sb/06-deleteontermination-on-ebs.md)
